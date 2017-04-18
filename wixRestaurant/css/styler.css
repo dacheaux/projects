@@ -72,8 +72,20 @@ header, .main-content, footer {
 }
 
 header {
-    height: 120px;
+    position: relative;
+    height: 125px;
     text-align: center;
+}
+
+.address {
+  position: absolute;
+  top: .5rem;
+  left: 3.5rem;
+}
+
+.address span {
+  letter-spacing: .04rem;
+  font-size: .8rem;
 }
 
 h1, h4 {
@@ -81,6 +93,10 @@ h1, h4 {
   font-family: 'Libre Baskerville';
   font-style: italic;
   letter-spacing: .2rem;
+}
+
+h1 {
+  margin: .5rem;
 }
 
 h4 {
@@ -105,7 +121,11 @@ nav a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1rem;
+}
+
+nav a:hover {
+  color: #ccc;
 }
 
 /* Create a Parallax Effect */
