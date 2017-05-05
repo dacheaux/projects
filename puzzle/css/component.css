@@ -88,7 +88,7 @@ perspective effects (not including the modals and the overlay).
     margin: 0;
     padding: 0.4em;
     text-align: center;
-    font-size: 2.4em;
+    font-size: 2em;
     font-weight: 300;
     opacity: 0.8;
     background: rgba(0,0,0,0.1);
@@ -99,21 +99,24 @@ perspective effects (not including the modals and the overlay).
     padding: 15px 40px 30px;
     margin: 0;
     font-weight: 300;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 .md-content > div p {
+    line-height: 1.5;
     margin: 0;
     padding: 10px 0;
 }
 
 .md-content > div ul {
+    list-style-type: decimal;
     margin: 0;
     padding: 0 0 30px 20px;
 }
 
 .md-content > div ul li {
-    padding: 5px 0;
+    padding: .5em;
+    text-align: left;
 }
 
 .md-content button {
