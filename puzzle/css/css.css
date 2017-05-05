@@ -4,6 +4,7 @@ body, html{
     margin: 0;
     padding: 0;
     font-family: Arial;
+    text-align: center;
 }
 
 body::after {
@@ -29,31 +30,32 @@ body::after {
 }
 
 .middle{
-    height: 900px;
-    min-width: 1500px;
+    display: inline-block;
+    height: 720px;
+    min-width: 1200px;
     margin: 2em auto;
     position: relative;
 }
 
 .innerMiddle {
     height: 100%;
-    width: 700px;
+    width: 560px;
     float: left;
 }
 
 .elementsLeft{
     float: left;
     position: relative;
-    width: 400px;;
+    width: 320px;
 }
 .elementsRight{
     float: left;
     position: relative;
-    width: 396px;
+    width: 316px;
 }
 
 .elementsMiddle{
-    height: 300px;
+    height: 240px;
     width: 100%;
     float: left;
 }
@@ -63,61 +65,61 @@ body::after {
 }
 
 .straightLine{
-    height: 200px;
-    width: 99px;
+    height: 160px;
+    width: 80px;
     z-index: 1;
 
 }
 
 #figureG{
-    height: 300px; 
-    width: 200px; 
+    height: 240px; 
+    width: 160px; 
     z-index: 0;
 }
 
 .figureZ{
-    width: 300px;
-    height: 200px;
+    width: 240px;
+    height: 160px;
     z-index: 0;
 }
 
 .figureW{
-    width: 300px;
-    height: 200px;
+    width: 240px;
+    height: 160px;
     z-index: 0;
 }
 
 .cube{
-    width: 200px;
-    height: 200px;
+    width: 160px;
+    height: 160px;
 }
 
 .space{
-    width: 298px;
-    height: 100px;
+    width: 238px;
+    height: 80px;
 }
 
 .oppositeG{
-    width: 300px;
-    height: 200px;
+    width: 240px;
+    height: 160px;
     z-index: 0;
 }
 
 .filler{
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     float: left
 }
 
 table {
     border-top: 1px solid black;
     border-spacing: 0;
-    height: 500px;
+    height: 400px;
     margin: 0 auto;
 }
 
 td {
-    width: 100px;
+    width: 80px;
     border-left: 1px solid black;
     border-bottom: 1px solid black;
     padding: 0px;
@@ -125,15 +127,15 @@ td {
 
 td:nth-child(5) {
     border-right: 1px solid black;
-    width: 101px;
+    width: 81px;
 }
 
 .mainCollider{
     position: absolute;
     background-color: black;
     background-clip: padding-box; 
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border-left: 1px solid transparent;
     border-bottom: 1px solid transparent;
     z-index: 1;
@@ -176,27 +178,27 @@ td:nth-child(5) {
 }
 .zero-one {
     left: 0;
-    top: 100px;
+    top: 80px;
 }
 .zero-two {
     left: 0;
-    top: 200px;
+    top: 160px;
 }
 .one-zero {
-    left: 100px;
+    left: 80px;
     top: 0;
 }
 .one-one {
-    left: 100px;
-    top: 100px;
+    left: 80px;
+    top: 80px;
 }
 .two-zero {
-    left: 200px;
+    left: 160px;
     top: 0;
 }
 .two-one {
-    left: 200px;
-    top: 100px;
+    left: 160px;
+    top: 80px;
 }
 
 
