@@ -33,7 +33,7 @@ var num = 0;
 var items = [false, false, false, false, false, false, false];
 
 $figures.draggable({
-    grid: [80, 80],
+    grid: [40, 40],
     containment: ".middle",
     opacity: 0.65,
     revert:
