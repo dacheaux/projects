@@ -136,7 +136,7 @@ td:nth-child(5) {
 
 .mainCollider{
     position: absolute;
-    background-color: black;
+    background-color: teal;
     background-clip: padding-box; 
     width: 80px;
     height: 80px;
