@@ -33,7 +33,7 @@ var num = 0;
 var items = [false, false, false, false, false, false, false];
 
 $figures.draggable({
-    grid: [100, 100],
+    grid: [80, 80],
     containment: ".middle",
     opacity: 0.65,
     revert:
@@ -62,7 +62,7 @@ $figures.draggable({
         var leftDiff = Math.abs(endLeft - startLeft);
         var topDiff = Math.abs(endTop - startTop);
 
-        if (((1 <= leftDiff) && (leftDiff <= 99)) || ((1 <= topDiff) && (topDiff <= 99))) {
+        if (((1 <= leftDiff) && (leftDiff <= 79)) || ((1 <= topDiff) && (topDiff <= 79))) {
             ui.helper.data('dropped', false);
             $(this).animate({
                 left: 0,
