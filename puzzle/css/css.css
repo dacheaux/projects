@@ -145,7 +145,7 @@ td:nth-child(5) {
 }
 
 .mainCollider.straightLineCollider{
-    background-color: #37C109;
+    background-color: green;
 }
 
 .mainCollider.gCollider{
