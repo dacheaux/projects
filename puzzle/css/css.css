@@ -30,7 +30,7 @@ body::after {
 
 .middle{
     height: 900px;
-    width: 1500px;
+    min-width: 1500px;
     margin: 2em auto;
     position: relative;
 }
