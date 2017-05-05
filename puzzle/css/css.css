@@ -65,7 +65,6 @@ body::after {
 .straightLine{
     height: 200px;
     width: 99px;
-    background-color: #37C109;
     z-index: 1;
 
 }
